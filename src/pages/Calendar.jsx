@@ -31,7 +31,7 @@ export default function Calendar() {
                 }
             `}</style>
 
-            <div className="bg-gray-50 shadow-2xl shadow-gray-400/50 w-full max-w-[480px] sm:aspect-[1/1.4] min-h-[650px] sm:min-h-0 flex flex-col relative rounded-3xl z-0">
+            <div className="bg-gray-50 shadow-2xl shadow-gray-400 w-full max-w-[480px] sm:aspect-[1/1.4] min-h-[650px] sm:min-h-0 flex flex-col relative rounded-3xl z-0">
                 <CalendarHeader
                     currentDate={currentDate}
                     onPrevMonth={handlePrevMonth}
