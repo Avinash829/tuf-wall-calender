@@ -1,9 +1,4 @@
-Gemini said
-Here is a polished, professional, and visually appealing version of your README. I have formatted it with clean headings, bold text for scannability, horizontal dividers, proper code blocks for your terminal commands, and removed the extra GitHub page text (like "Stars", "Forks", etc.) that accidentally got copied over.
 
-You can copy and paste the block below directly into your README.md file:
-
-Markdown
 # 🗓️ Interactive Wall Calendar Component
 
 A highly interactive, responsive, and aesthetically polished calendar component inspired by physical wall calendars. Built to demonstrate strong frontend architecture, clean state management, and pixel-perfect UI/UX design.
