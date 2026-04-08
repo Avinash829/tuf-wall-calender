@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+.curved-image {
+    --w: 110px;
+    --h: 110px;
+    --o: 10px;
+    --r: 28px;
+
+    --ofs: calc(-1 * var(--o));
+    --sz: calc(var(--r) + var(--o));
+
+    -webkit-mask-image: radial-gradient(
+            circle at right top,
+            transparent var(--r),
+            black var(--r)
+        ),
+        radial-gradient(
+            circle at right top,
+            transparent var(--r),
+            black var(--r)
+        ),
+        linear-gradient(black, black);
+
+    -webkit-mask-repeat: no-repeat;
+
+    -webkit-mask-size: var(--sz) var(--sz), var(--sz) var(--sz), cover;
+
+    -webkit-mask-position: var(--ofs) calc(100% - var(--h)),
+        var(--w) calc(100% - var(--ofs)), 0 0;
+
+    mask-image: radial-gradient(
+            circle at right top,
+            transparent var(--r),
+            black var(--r)
+        ),
+        radial-gradient(
+            circle at right top,
+            transparent var(--r),
+            black var(--r)
+        ),
+        linear-gradient(black, black);
+
+    mask-repeat: no-repeat;
+
+    mask-size: var(--sz) var(--sz), var(--sz) var(--sz), cover;
+
+    mask-position: var(--ofs) calc(100% - var(--h)),
+        var(--w) calc(100% - var(--ofs)), 0 0;
+}
