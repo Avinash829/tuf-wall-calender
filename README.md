@@ -3,7 +3,7 @@
 
 A highly interactive, responsive, and aesthetically polished calendar component inspired by physical wall calendars. Built to demonstrate strong frontend architecture, clean state management, and pixel-perfect UI/UX design.
 
-**🔗 [Live Demo](https://tuf-wall-calender-avinash.pages.dev/)** **📹 [Video Walkthrough](https://www.loom.com/share/4703fe0c0dd045cf8b73e98552ee8b47)**
+**🔗 [Live Demo](https://tuf-wall-calender-avinash.pages.dev/)** **📹 [Video Walkthrough](https://www.loom.com/share/aa51ad1988b24d78bf486b33989cbd8c)**
 
 ---
 
